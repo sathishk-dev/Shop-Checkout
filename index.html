@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" href="resources/favicon.ico" type="image/x-icon" sizes="96x96" />
+  <title>Device Shop Checkout | devChallenges.io</title>
+  <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+    rel="stylesheet">
+
+</head>
+
+<body style="font-family: 'Inter', sans-serif;">
+
+  <div class="h-full">
+    <!-- Header -->
+    <div
+      class="bg-[url('./resources/background-image.png')] flex justify-center items-start h-54 bg-cover bg-center bg-no-repeat">
+      <div class="flex items-center mt-14 gap-3">
+        <h2 class="font-bold text-white text-2xl">Checkout </h2>
+        <span class="bg-[#1D1D1F] rounded-full px-4 py-1 text-white font-normal text-xs">3 ITEMS</span>
+      </div>
+    </div>
+
+    <div class="flex-col flex md:flex-row px-5 md:px-10 -mt-20">
+      <!-- Summary Section -->
+      <div
+        class="bg-[#E5E7EB] shadow-md space-y-6 p-10 md:rounded-tl-2xl rounded-t-2xl md:rounded-tr-none md:rounded-bl-2xl md:w-1/2">
+
+        <div class="h-28 flex justify-between">
+          <div class="flex items-center gap-8">
+            <div class="bg-white border border-[#D2D5DA] rounded-xl overflow-hidden p-5 h-28 w-28">
+              <img class="w-full h-full object-contain" src="./resources/Gold@2x.png" alt="">
+            </div>
+
+            <div class="flex flex-col justify-between h-full">
+              <div>
+                <h2 class="font-bold text-[#1D1D1F]">iPhone 12 Pro</h2>
+                <h2 class="font-medium text-[#394150] mt-2">Golden</h2>
+              </div>
+              <h2 class="font-medium text-[#394150]">x 1</h2>
+            </div>
+          </div>
+
+          <div class="flex flex-col justify-between items-end h-full">
+            <h2 class="font-bold text-[#1D1D1F]">$999.00</h2>
+            <h2 class="font-medium text-xl text-[#394150]">x</h2>
+          </div>
+        </div>
+
+        <div class="h-28 flex justify-between">
+          <div class="flex items-center gap-8">
+            <div class="bg-white border border-[#D2D5DA] rounded-xl overflow-hidden p-5 h-28 w-28">
+              <img class="w-full h-full object-contain" src="./resources/Apple-watchx2.png" alt="">
+            </div>
+
+            <div class="flex flex-col justify-between h-full">
+              <div>
+                <h2 class="font-bold text-[#1D1D1F]">Apple Watch</h2>
+                <h2 class="font-medium text-[#394150] mt-2">Blue</h2>
+              </div>
+              <h2 class="font-medium text-[#394150]">x 1</h2>
+            </div>
+          </div>
+
+          <div class="flex flex-col justify-between items-end h-full">
+            <h2 class="font-bold text-[#1D1D1F]">$399.00</h2>
+            <h2 class="font-medium text-xl text-[#394150]">x</h2>
+          </div>
+        </div>
+
+        <div class="h-28 flex justify-between">
+          <div class="flex items-center gap-8">
+            <div class="bg-white border border-[#D2D5DA] rounded-xl overflow-hidden p-5 h-28 w-28">
+              <img class="w-full h-full object-contain" src="./resources/iMac@2x.png" alt="">
+            </div>
+
+            <div class="flex flex-col justify-between h-full">
+              <div>
+                <h2 class="font-bold text-[#1D1D1F]">iMac</h2>
+                <h2 class="font-medium text-[#394150] mt-2">Green</h2>
+              </div>
+              <h2 class="font-medium text-[#394150]">x 1</h2>
+            </div>
+          </div>
+
+          <div class="flex flex-col justify-between items-end h-full">
+            <h2 class="font-bold text-[#1D1D1F]">$1199.00</h2>
+            <h2 class="font-medium text-xl text-[#394150]">x</h2>
+          </div>
+        </div>
+
+        <span class="h-[1.5px] w-full flex bg-[#D2D5DA]"></span>
+
+        <div>
+          <form action="" class="w-full flex gap-4">
+            <input type="text" placeholder="Enter coupon code" name="" id=""
+              class="placeholder:text-[#394150] text-sm bg-white w-full border border-[#D2D5DA] px-3 py-3 rounded-md" required>
+            <button class="bg-[#1D1D1F] font-medium text-white rounded-md px-4 py-2 text-sm text-nowrap">Apply
+              Coupon</button>
+          </form>
+
+          <div class="flex justify-between mt-5 font-semibold text-base">
+            <div class="space-y-2">
+              <h2 class="text-[#394150]">Sub Total</h2>
+              <h2 class="text-[#394150]">Tax</h2>
+              <h2 class="text-[#1D1D1F]">Total</h2>
+            </div>
+
+            <div class="text-right space-y-2">
+              <h2 class="text-[#394150]">$2597.00</h2>
+              <h2 class="text-[#394150]">$623.28</h2>
+              <h2 class="text-[#1D1D1F]">$3220.28</h2>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Contact Form -->
+      <div
+        class="bg-white p-10 shadow-md md:rounded-tr-2xl rounded-b-2xl md:rounded-bl-none md:rounded-br-2xl md:w-1/2">
+        <h2 class="text-[#1D1D1F] font-semibold mb-6">Contact Information</h2>
+
+        <form action="" class="grid grid-col-2 gap-8">
+          <div class="col-span-2 flex flex-col">
+            <label for="name" class="text-sm text-[#394150] font-semibold mb-3">First & Last name</label>
+            <input type="text" id="name" placeholder="Enter first & last name"
+              class="bg-[#F3F4F6] px-4 rounded-md border text-sm py-4 placeholder:text-[#394150] text-[#394150] border-[#D2D5DA]" required>
+          </div>
+
+          <div class="col-span-2 flex flex-col">
+            <label for="email" class="text-sm text-[#394150] font-semibold mb-3">Email Address</label>
+            <input type="email" id="email" placeholder="Enter email address"
+              class="bg-[#F3F4F6] px-4 rounded-md border text-sm py-4 placeholder:text-[#394150] text-[#394150] border-[#D2D5DA]" required>
+          </div>
+
+          <div class="col-span-2 flex gap-6">
+            <div class="flex flex-col w-full">
+              <label for="country" class="text-sm text-[#394150] font-semibold mb-3">Country</label>
+              <select name="country" id="country"
+                class="bg-[#F3F4F6] w-full px-4 rounded-md border font-medium text-sm py-4 text-[#1D1D1F] border-[#D2D5DA]" required>
+                <option value="Finland">Finland</option>
+                <option value="Sweden">Sweden</option>
+              </select>
+            </div>
+
+            <div class="flex flex-col w-full">
+              <label for="postal_code" class="text-sm text-[#394150] font-semibold mb-3">Postal Code</label>
+              <input type="number" id="postal_code" placeholder="00270"
+                class="bg-[#F3F4F6] w-full px-4 rounded-md border text-sm py-4 placeholder:text-[#394150] text-[#394150] border-[#D2D5DA]" required>
+            </div>
+          </div>
+
+          <button
+            class="bg-[#1D1D1F] col-span-2 font-medium text-white rounded-md px-4 py-4 text-sm text-nowrap">Continue</button>
+
+        </form>
+      </div>
+    </div>
+
+  </div>
+
+
+  <!-- Footer -->
+  <div class="author-info text-center text-xs my-6">
+    Coded by <a href="#">Dev SK</a> | Challenge by
+    <a href="https://www.devchallenges.io?ref=challenge" target="_blank">devChallenges.io</a>.
+  </div>
+
+</body>
+
+</html>
