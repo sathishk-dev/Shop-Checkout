@@ -1,6 +1,6 @@
-<!-- Please update value in the {}  -->
+<!-- Device Shop Checkout | DevChallenges -->
 
-<h1 align="center">{Your project name} | devChallenges</h1>
+<h1 align="center">Device Shop Checkout | devChallenges</h1>
 
 <div align="center">
    Solution for a challenge <a href="https://devchallenges.io/challenge/apple-shop-checkout-page-challenge" target="_blank">Device Shop Checkout</a> from <a href="http://devchallenges.io" target="_blank">devChallenges.io</a>.
@@ -9,11 +9,11 @@
 <div align="center">
   <h3>
     <a href="https://devsk-shop-checkout.netlify.app/">
-      Demo
+      Live Demo
     </a>
     <span> | </span>
-    <a href="https://devsk-shop-checkout.netlify.app/">
-      Solution
+    <a href="https://github.com/sathishk-dev/Shop-Checkout">
+      Code Repository
     </a>
     <span> | </span>
     <a href="https://devchallenges.io/challenge/apple-shop-checkout-page-challenge">
@@ -22,65 +22,58 @@
   </h3>
 </div>
 
-<!-- TABLE OF CONTENTS -->
-
 ## Table of Contents
 
 - [Overview](#overview)
-  - [What I learned](#what-i-learned)
-  - [Useful resources](#useful-resources)
-- [Built with](#built-with)
+  - [What I Learned](#what-i-learned)
+  - [Useful Resources](#useful-resources)
+- [Built With](#built-with)
 - [Features](#features)
 - [Contact](#contact)
 - [Acknowledgements](#acknowledgements)
 
-<!-- OVERVIEW -->
-
 ## Overview
 
-![screenshot](https://user-images.githubusercontent.com/16707738/92399059-5716eb00-f132-11ea-8b14-bcacdc8ec97b.png)
+![screenshot](https://github.com/sathishk-dev/Shop-Checkout/blob/main/design/Desktop_1350px.jpg)
 
-<!--
-Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
+### What I Learned
 
-- What have you learned/improved?
-- Your wisdom? :)
--->
+While working on this project, I improved my understanding of:
 
-### What I learned
+- Implementing a responsive checkout UI
+- Enhancing user experience using Tailwind CSS
+- Managing form inputs effectively
+- Optimizing layout with Flexbox and CSS Grid
 
-<!-- Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge. -->
+### Useful Resources
 
-### Useful resources
+- [Tailwind CSS Docs](https://tailwindcss.com/docs) - Helped me style the page efficiently.
+- [MDN Flexbox Guide](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox) - Assisted in layout design.
 
-<!--
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
--->
-
-### Built with
-
-<!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
+### Built With
 
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
 - CSS Grid
-- [React](https://reactjs.org/)
-- [Vue.js](https://vuejs.org/)
-- [Tailwind](https://tailwindcss.com/)
+- [Tailwind CSS](https://tailwindcss.com/)
 
 ## Features
 
-<!-- List the features of your application or follow the template. Don't share the figma file here :) -->
+This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges-dashboard) challenge. It includes the following features:
 
-This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges-dashboard) challenge.
+- User-friendly checkout interface
+- Responsive design for all screen sizes
+- Secure input validation for checkout fields
+- Styled using Tailwind CSS
 
 ## Acknowledgements
 
-<!-- This section should list any articles or add-ons/plugins that helps you to complete the project. This is optional but it will help you in the future. For exmpale -->
+I would like to thank:
+- [DevChallenges.io](https://devchallenges.io/) for providing interesting and practical challenges.
+- The online developer community for continuous support and guidance.
 
-## Author
+## Contact
 
-- Website [your-website.com](https://sathishk-dev.web.app)
-- GitHub [@your-username](https://github.com/sathishk-dev)
+- Portfolio: [sathishk-dev.web.app](https://sathishk-dev.web.app)
+- GitHub: [sathishk-dev](https://github.com/sathishk-dev)
